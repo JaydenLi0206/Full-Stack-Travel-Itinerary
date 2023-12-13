@@ -1,0 +1,6 @@
+As a user, I want to be able to share my itinerary with other people so that they can easily see my travel plans and make necessary arrangements. When I open the app, I
+want to be able to navigate to the itinerary section and select the specific itinerary that I want to share. I expect to be able to view the details of the itinerary,
+such as the dates, times, and locations of each activity. Once I have selected the itinerary that I want to share, I want to be able to choose how I want to share it,
+whether through group email or group text messaging. I want to be able to customize the message that goes along with the itinerary, such as adding a personal note or
+providing additional instructions. When I share the itinerary, I want the recipient to be able to easily access and view the itinerary, without having to download the
+app or create an account. The itinerary should be displayed in a clear and organized manner, with all the relevant information easily accessible.

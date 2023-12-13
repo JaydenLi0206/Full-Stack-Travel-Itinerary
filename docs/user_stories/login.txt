@@ -1,0 +1,7 @@
+As a user of the itinerary travel application, I want to be able to log into my account and use the application using my personal information. I want to use the app in a
+personal way where modifications and changes that I make within the app is saved and I can come back to it by login back into my account. As a frequent traveler, I want
+to be able to access my personalized travel itinerary on-the-go through an app. In order to do so, I need to be able to log in securely and quickly to the app from my
+mobile device. When I open the app, I want to be presented with a clear and simple login page. I should be able to enter my email address and password, or use a social
+media login option such as Google or Facebook. If I forget my password, I would like to be able to easily reset it by clicking on a "forgot password" link on the login
+page. Once I successfully log in, I want to be taken directly to my personalized itinerary page, which should display all of my upcoming trips and relevant travel
+information, such as flight details, hotel reservations, and transportation schedules.

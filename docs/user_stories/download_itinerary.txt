@@ -1,0 +1,4 @@
+As a user of the travel planning application, I want to be able to download my itinerary so that I can access it offline and refer to it when needed. My preference would
+be to be able to download the itinerary in various formats, such as PDF and HTML. I would like the application to provide me with a detailed itinerary that includes
+information about art museums, recommended restaurants, weather forecasts, and events. Even when I am not online, this feature will help me plan and manage my trip
+effectively.

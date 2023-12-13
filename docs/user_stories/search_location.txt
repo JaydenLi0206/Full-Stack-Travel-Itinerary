@@ -1,0 +1,6 @@
+As an adventurous traveler, I want to be able to search for different locations on the travel itinerary generator app, so that I can discover new places to explore. When
+I open the app, I want to see a search bar prominently displayed on the home page where I can enter the name of the location I want to search for. I should be able to
+search for locations by typing in a city, state, country, or even a landmark or attraction. Once I enter my search criteria and hit the "search" button, I want the app
+to display the generated itinerary including a list of relevant locations along with information such as popular attractions, accommodations, and transportation options.
+The results should be organized in a user-friendly format, such as a list or map view. I should be able to refine my search results by filtering on various criteria such
+as budget, dates, type of accommodation, and travel activities. I should also be able to save my favorite locations for later reference.

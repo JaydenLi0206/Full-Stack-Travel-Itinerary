@@ -1,0 +1,4 @@
+As a user of the itinerary app, I want to be able to create an itinerary not only based on my interests and location, but also for how many days I will be on the trip
+for. Because I don’t want to be bored during the trip, I want the itinerary to provide enough things to do to keep me entertained the whole time. When I open the app, I
+want to be able to navigate to the trip planning section and select the option to set the duration of my trip. I expect to be able to input the start and end dates of my
+trip, as well as the number of days that I will be traveling.

@@ -1,0 +1,18 @@
+Idea 1 - Travel Itinerary Generator:
+This web application is a personalized tool that uses a decoupled architecture with a front-end and back-end communicating via a RESTful API interface. It incorporates
+at least two publicly available data sets via API, such as the Google Places API, the OpenWeatherMap API, or the Yelp Fusion API, to generate a travel itinerary based on
+a user's personal interests and hobbies. The application requires users to log in via OAuth authentication with a Google or Facebook account and stores their profile
+information in a database, which acts as a cache for data retrieved from third-party APIs. The back-end server retrieves data from the database and third-party APIs to
+generate a travel itinerary that includes details such as art museums, recommended restaurants, weather forecasts, and events or conferences. The front-end displays the
+itinerary to the user and allows them to modify or save it for future reference. The application provides users with a comprehensive and personalized travel planning
+experience that helps them plan a trip that aligns with their unique preferences and interests.
+
+Idea 2 - Pet Adoption App:
+This application aims to build a web-based application that connects potential pet adopters with pets that need homes. The app will allow users to search for pets based
+on their location, preferences, previous adoption history, and other relevant factors. By using this consistently, users can adopt a pet and bring more joy to their
+lives. We could store users information and pets’ adoption history into a non-relational database such as MongoDB. The app will utilize the Petfinder API and Google Maps
+API to suggest pets for adoption based on the user's location and preferences. The application requires users to log in via OAuth authentication with third-party
+authentication services, such as Google or Facebook, to provide a secure and convenient login experience for users.  It also uses a decoupled architecture with a
+front-end and back-end communicating via a RESTful API interface. Backend could get data from our database and third-party APIs, and frontend will display the list of
+available pets for the users based on their preferences. Overall, this app will provide a platform for pet adoption agencies to reach potential adopters and increase the
+visibility of the pets available for adoption.

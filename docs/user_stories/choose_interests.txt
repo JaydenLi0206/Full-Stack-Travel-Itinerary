@@ -1,0 +1,4 @@
+As a user of the travel planning application, I want to be able to choose my personal interests and hobbies so that the itinerary generated is tailored to my
+preferences. I would like to be able to choose from a variety of categories, such as art, food, sports, etc. My ideal application would provide me with recommendations
+based on my interests, and I would be able to add or remove items from the itinerary as I see fit. My preferences and interests will be taken into account when planning
+a trip using this feature.

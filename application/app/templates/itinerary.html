@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Itinerary</h1>
+        <a href="{{ url_for('main.index') }}">Home</a>
+    </header>
+    <main>
+        <form method="post" action="{{ url_for('main.itinerary') }}">
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city" required>
+            <label for="activity">Activity:</label>
+            <input type="text" name="activity" id="activity" required>
+            <button type="submit">Generate Itinerary</button>
+        </form>
+        
+        {% if weather_data %}
+            <h2>Weather</h2>
+            <div class="item-box">
+                
+                <p>City: {{ weather_data.name }}</p>
+                <p>Temperature: {{ weather_data.main.temp }} K</p>
+                <p>Weather: {{ weather_data.weather[0].description }}</p>
+            </div>
+        {% endif %}
+
+        {% if yelp_data %}
+            <h2>Activities</h2>
+            <div class="activities">
+                {% for business in yelp_data.businesses %}
+                    <div class="item-box">
+                        <h3>{{ business.name }}</h3>
+                        <p>Rating: {{ business.rating }}</p>
+                        <p>Address: {{ business.location.address1 }}</p>
+                        <p>Phone: {{ business.phone }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </main>
+</body>
+</html>
